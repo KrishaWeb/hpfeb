@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "hpfeb";
+  src:url("fonts/hpfeb.eot");
+  src:url("fonts/hpfeb.eot?#iefix") format("embedded-opentype"),
+    url("fonts/hpfeb.woff") format("woff"),
+    url("fonts/hpfeb.ttf") format("truetype"),
+    url("fonts/hpfeb.svg#hpfeb") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "hpfeb" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "hpfeb" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\61";
+}
+.icon-facebook:before {
+  content: "\62";
+}
+.icon-youtube:before {
+  content: "\63";
+}
+.icon-ambu:before {
+  content: "\64";
+}
+.icon-arrow-down:before {
+  content: "\65";
+}
+.icon-arrow-right:before {
+  content: "\66";
+}
+.icon-caret:before {
+  content: "\67";
+}
+.icon-pause:before {
+  content: "\68";
+}
+.icon-people:before {
+  content: "\69";
+}
+.icon-ruler:before {
+  content: "\6a";
+}
+.icon-search:before {
+  content: "\6b";
+}
+.icon-x:before {
+  content: "\6c";
+}
